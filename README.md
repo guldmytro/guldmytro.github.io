@@ -10,3 +10,5 @@
 [#4 Creatives](https://guldmytro.github.io/creatives/ "Мой четвертый сайт из PSD шаблона")
 
 [#5 Indo](https://guldmytro.github.io/Indo/ "Мой пятый сайт из PSD шаблона")
+
+[#6 CleanMag](https://guldmytro.github.io/CleanMag/ "Мой щестой сайт из PSD шаблона")
