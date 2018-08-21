@@ -1,0 +1,208 @@
+@font-face {
+	font-family: 'Segoe WP';
+	src: url('font/ofont.ru_Segoe WP Light.ttf');
+}
+@font-face {
+	font-family: 'SegoeWPN';
+	src: url('font/SegoeWPN.ttf');
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	color: #8d8d8d;
+}
+a:focus {
+	border: none;
+}
+a {
+	text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+}
+h1 {
+	font: 52px/65px 'Segoe WP', sans-serif;
+	color: #fff;
+	font-weight: 900;
+}
+h2 {
+	font: 22px/22px 'Segoe WP', sans-serif;
+	color: rgb(134,134,134);
+	font-weight: 300;
+}
+h3 {
+	font: 26px/34px 'Segoe WP', sans-serif;
+	color: rgb(126,124,124);
+	font-weight: 300;
+}
+h4 {
+	font: 14px/14px 'Segoe WP', sans-serif;
+	color: rgb(146,146,146);
+	font-weight: 300;
+}
+h5 {
+	font: 20px/34px 'Segoe WP', sans-serif;
+	color: rgb(126,124,124);
+	font-weight: 300;
+}
+.light {
+	font-weight: 100;
+}
+.upp {
+	text-transform: uppercase;
+}
+ol, ul {
+	list-style: none;
+}
+html,
+body,
+header,
+section,
+footer {
+	width: 100%;
+	min-width: 1140px;
+	text-align: center;
+}
+.container {
+	width: 1140px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 0 10px;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.clearfix:before,
+.clearfix:after {
+	content: '';
+	display: table;
+}
+.clearfix:after {
+	clear: both;
+}
+header {
+	position: relative;
+	background-color: #fff;
+	height: 67px;
+	box-shadow: 0 3px 3px rgba(0,0,0,.1);
+	z-index: 1;
+}
+header .logo {
+	height: 67px;
+	font: bold 36px/67px 'Segoe WP', sans-serif;
+}
+header .logo > span {
+	letter-spacing: -2px;
+	color: rgb(18,152,221);
+}
+header ul {
+	height: 67px;
+	padding-top: 17.5px;
+}
+header ul li {
+	border: 1px solid transparent;
+	font: bold 16px/16px 'SegoeWPN', sans-serif;
+	font-weight: 300;
+	padding: 8px 12px;
+	margin-left: 15px;
+}
+header ul li:hover {
+	cursor: pointer;
+	background-image: linear-gradient(0deg, #1f83e7 0%, #37b3f7 100%);
+	border: 1px solid #1783d1;
+	color: #fff;
+	border-radius: 4px;
+}
+header ul li.hovered {
+	background-image: linear-gradient(0deg, #1f83e7 0%, #37b3f7 100%);
+	border: 1px solid #1783d1;
+	color: #fff;
+	border-radius: 4px;
+}
+#banner {
+	position: relative;
+	height: 540px;
+	padding-top: 170px;
+	background: url('img/Layer 3.png') no-repeat top center;
+	background-position: center -40px;
+	background-size: cover;
+}
+.green-btn {
+	margin: 30px auto 0 auto;
+	text-align: center;
+	width: 250px;
+	height: 58px;
+	border-radius: 4px;
+	background-image: linear-gradient(0deg, #34ad22 0%, #6ed158 100%);
+	font-size: 32px;
+	color: rgb(255,255,255);
+	font: 32px/54px "Segoe WP", sans-serif;
+	font-weight: 600;
+	box-shadow: 0.5px 0.866px 10px rgba(0,0,0,0.2);
+}
+
+.green-btn:hover {
+	cursor: pointer;
+	box-shadow: 0.5px 0.866px 10px rgba(0,0,0,0.4);
+}
+.info {
+	position: absolute;
+	width: 490px;
+	height: 240px;
+	bottom: -145px;
+	left: calc(50% - 245px);
+	border-radius: 5px;
+	background-color: #fff;
+	padding: 27px;
+	border-bottom: 5.5px solid #51bf3d;
+	box-shadow: 0.5px 0.866px 10px rgba(0,0,0,0.2);
+}
+.cont {
+	width: 100%;
+	margin-top: 17px;
+}
+.cont .block {
+	width: 79px;
+	height: 72px;
+	margin-right: 10.25px;
+}
+.cont .block:nth-child(5n) {
+	margin-right: 0;
+}
+.cont .block:nth-child(-n + 5) {
+	margin-bottom: 15px;
+}
+#menu {
+	height: 580px;
+	padding-top: 210px;
+	background-color: #ececec;
+}
+.menu-items {
+	margin-top: 40px;
+}
+.menu-item {
+	display: inline-block;
+	width: 135px;
+	height: 185px;
+	margin-right: 70px;
+	text-align: center;
+}
+.menu-item:last-child {
+	margin-right: 0;
+}
+.menu-item h5 {
+	padding-top: 10px;
+}
+footer {
+	height: 35px;
+}
+footer h4 {
+	color: rgba(255,255,255,.7);
+	line-height: 35px;
+	background-color: #414141;
+}
