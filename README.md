@@ -13,4 +13,4 @@
 
 [#6 CleanMag](https://guldmytro.github.io/CleanMag/ "Мой щестой сайт из PSD шаблона")
 
-[#7 Mogo](https://guldmytro.github.io/Mogo/ "Мой седьмой сайт из PSD шаблона")
+[#7 MoGo](https://guldmytro.github.io/Mogo/ "Мой седьмой сайт из PSD шаблона")
