@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'Helvetica Now Display';
+    src: local('Helvetica-Now-Display-ExtraBold'),
+         local('Helvetica Now Display ExtraBold'),
+         url('../fonts/HelveticaNowDisplay-ExtraBold.woff2') format('woff2'),
+         url('../fonts/HelveticaNowDisplay-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kanit';
+    src: local('Kanit-Regular'),
+         local('Kanit Regular'),
+         url('../fonts/Kanit-Regular.woff2') format('woff2'),
+         url('../fonts/Kanit-Regular.woff') format('woff');
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    src: local('Quicksand-Regular'),
+         local('Quicksand Regular'),
+         url('../fonts/Quicksand-Regular.woff2') format('woff2'),
+         url('../fonts/Quicksand-Regular.woff') format('woff');
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    src: local('Quicksand-Light'),
+         local('Quicksand Light'),
+         url('../fonts/Quicksand-Light.woff2') format('woff2'),
+         url('../fonts/Quicksand-Light.woff') format('woff');
+    font-weight: 300;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    src: local('Quicksand-Bold'),
+         local('Quicksand Bold'),
+         url('../fonts/Quicksand-Bold.woff2') format('woff2'),
+         url('../fonts/Quicksand-Bold.woff') format('woff');
+    font-weight: 700;
+    font-display: swap;
+}

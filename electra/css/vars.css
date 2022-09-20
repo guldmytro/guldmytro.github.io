@@ -1,0 +1,14 @@
+:root {
+    /* width */
+    --width-container: 1320px;
+    /* color */
+    --color-bg: #090328;
+    --color-text: #fff;
+    --color-text-secondary: #60D9FF;
+    /* radius */
+    --radius-btn: 1rem;
+    /* gradient */
+    --gradient: linear-gradient(to right, #9AD6FB, #167AFF);
+    /* filter */
+    --blur: blur(8px);
+}

@@ -1,0 +1,58 @@
+.firstscreen {
+    position: relative;
+    background: url("../img/bg-firstscreen.png") no-repeat center / auto 75%;
+    isolation: isolate;
+}
+
+.firstscreen-row {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    min-height: 80rem;
+}
+
+.firstscreen__title {
+    width: 100%;
+    text-align: center;
+    font-family: 'Helvetica Now Display';
+    font-size: 8rem;
+    letter-spacing: 0.05em;
+}
+
+.firstscreen .spot:nth-of-type(1) {
+    position: absolute;
+    top: 10%;
+    left: -20%;
+    width: 50%;
+    height: 40%;
+    z-index: -1;
+    transform: rotate(-60deg);
+    background-image: radial-gradient(ellipse 100% 100% at center,  rgba(0, 154, 255, 0.15), transparent 50%);
+    filter: blur(300px);
+}
+
+.firstscreen .spot:nth-of-type(2) {
+    position: absolute;
+    top: -30%;
+    left: 30%;
+    width: 50%;
+    height: 30%;
+    z-index: -1;
+    transform: rotate(60deg);
+    background-image: radial-gradient(ellipse 100% 100% at center,  rgba(0, 154, 255, 0.15), transparent 50%);
+    filter: blur(300px);
+}
+
+.firstscreen .spot:nth-of-type(3) {
+    position: absolute;
+    bottom: -30%;
+    right: -20%;
+    width: 60%;
+    height: 60%;
+    z-index: -1;
+    transform: rotate(-60deg);
+    background-image: radial-gradient(ellipse 100% 100% at center,  rgba(0, 154, 255, 0.15), transparent 50%);
+    filter: blur(400px);
+}

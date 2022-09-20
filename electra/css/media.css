@@ -1,0 +1,39 @@
+@media (max-width: 1399px) {
+
+    :root {
+        --width-container: 1140px;
+    }
+
+} /* 1399px */
+
+@media (max-width: 1199px) {
+
+    :root {
+        --width-container: 960px;
+    }
+
+} /* 1199px */
+
+@media (max-width: 991px) {
+
+    :root {
+        --width-container: 720px;
+    }
+
+} /* 991px */
+
+@media (max-width: 767px) {
+
+    :root {
+        --width-container: 540px;
+    }
+
+} /* 767px */
+
+@media (max-width: 575px) {
+
+    :root {
+        --width-container: 100%;
+    }
+
+} /* 575px */

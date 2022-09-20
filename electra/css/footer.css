@@ -1,0 +1,57 @@
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 2rem 0;
+    backdrop-filter: var(--blur);
+    z-index: 10;
+}
+
+.footer-row {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 3.2rem;
+}
+
+.footer__copy {
+    font-weight: 'Kanit';
+    font-size: 1.4rem;
+}
+
+.footer__socials {
+    display: flex;
+    margin-left: auto;
+    list-style: none;
+    column-gap: 8rem;
+}
+
+.socials-item__link {
+    position: relative;
+    display: block;
+}
+
+.socials-item__link::before {
+    content: '';
+    position: absolute;
+    top: -2rem;
+    left: -2rem;
+    right: -2rem;
+    bottom: -2rem;
+    display: block;
+    background-image: radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 0.3) 0%,  transparent 80%);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 150ms;
+
+}
+
+.socials-item__link:hover::before {
+    opacity: 1;
+}
+
+.socials-item__link [src*="telegram"] {
+    width: 3rem;
+}
